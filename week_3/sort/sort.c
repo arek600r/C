@@ -76,6 +76,14 @@ void merge_sort(int arr[], int len)
     int *righ = arr + len/2;
     int n = sizeof(righ) / sizeof(righ[0]);
     printf("%d\n", n);
+    //podziel tablicę na dwie części
+    //jeżeli jest większa od 3 i podzielna przez dwa, potwtórz
+    // jeżeli nie, wybierz największą wartość
+
+    //Sort the left half of the array (assuming n > 1)
+    //Sort the right half of the array (assuming n > 1)
+    //Merge the two halves together
+
     for (int i = 0; i < 3; i++)
     {
         printf("%d ", righ[i]);
